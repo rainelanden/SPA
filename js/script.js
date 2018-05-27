@@ -1,4 +1,4 @@
-// When the user scrolls down 20px from the top of the document, show the button
+// Knappen visas när användaren scrollar ner 20px från toppen av dokumentet 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -9,8 +9,8 @@ function scrollFunction() {
     }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// En funktion som tar dig till toppen av sidan
 function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    document.body.scrollTop = 0; // Om du använder Safari
+    document.documentElement.scrollTop = 0; // Alla andra webbläsare
 }

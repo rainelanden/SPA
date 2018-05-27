@@ -11,6 +11,6 @@ function scrollFunction() {
 
 // En funktion som tar dig till toppen av sidan
 function topFunction() {
-    document.body.scrollTop = 0; // Om du använder Safari
-    document.documentElement.scrollTop = 0; // Alla andra webbläsare
+    document.body.scrollTop = 0; // För Safari
+    document.documentElement.scrollTop = 0; // Alla de andra webbläsare
 }
